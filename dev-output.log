@@ -1,0 +1,28 @@
+
+> figma-client@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+✓ Ready in 719ms
+⚠ Slow filesystem detected. The benchmark took 230ms. If D:\figma-client\.next/dev is a network drive, consider moving it to a local folder.
+See more: https://nextjs.org/docs/app/guides/local-development
+
+○ Compiling / ...
+ GET /attendance 200 in 10.7s (next.js: 9.2s, application-code: 1504ms)
+ GET /leave-management 200 in 10.7s (next.js: 9.9s, application-code: 748ms)
+ GET /workforce-cost 200 in 10.9s (next.js: 10.2s, application-code: 671ms)
+ GET / 200 in 13.4s (next.js: 12.8s, application-code: 540ms)
+ GET /leave-management/leave-types 200 in 1475ms (next.js: 1241ms, application-code: 234ms)
+ GET /timesheet 200 in 1885ms (next.js: 1689ms, application-code: 196ms)
+○ Compiling /leave-management/leave-types ...
+ GET /employee-profile 200 in 1721ms (next.js: 1539ms, application-code: 181ms)
+ GET /timesheet/emp-001 200 in 3.0s (next.js: 2.8s, application-code: 164ms)
+ GET /employee-profile/compensation 200 in 1359ms (next.js: 1121ms, application-code: 238ms)
+○ Compiling /employee-profile/compensation ...
+ GET /employee-profile/attendance 200 in 3.4s (next.js: 2.5s, application-code: 904ms)
+ GET /employee-profile/leave 200 in 2.7s (next.js: 2.2s, application-code: 504ms)
+ GET /holiday-calendar 200 in 1915ms (next.js: 1675ms, application-code: 239ms)
+ GET /announcements 200 in 1561ms (next.js: 1356ms, application-code: 205ms)
+[?25h
